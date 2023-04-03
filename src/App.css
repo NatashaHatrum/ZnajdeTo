@@ -1,38 +1,204 @@
+@import url(//db.onlinewebfonts.com/c/fab70e0456e2f6e1045895f5dffd1a30?family=NoyhABistroW01-Regular);
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    height: auto;
+    overflow-x: hidden;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerStyle {
+    background: none;
+    padding-inline: 0;
+    width: 1440px;
+    height: 630px;
+    position: relative;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contentStyle {
+    width: 100vw;
+    position: relative;
+    background: none !important;
+    height: 2300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footerStyle {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 83px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    padding-left: 9.938rem;
+    background: rgba(0, 0, 0, 0);
+    padding-top: 8px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+    font-family: 'NoyhABistroW01-Regular';
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 1.563rem;
+    text-align: center;
+    color: #AE875A;
+    background: rgba(0, 0, 0, 0);
+    padding-left: 15px;
+    text-decoration: none;
+
+}
+
+.backgroundPhoto {
+    position: absolute;
+
+}
+
+.link {
+    color: #33200B;
+}
+
+a:hover {
+    color: #33200B;
+}
+
+.title {
+    font-family: 'NoyhABistroW01-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 70px;
+    color: #33200B;
+    padding-left: 165px;
+    padding-top: 217px;
+     text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
+
+}
+
+.title2 {
+    font-family: 'NoyhABistroW01-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 29px;
+    color: #FFFDF5;
+    padding-left: 165px;
+    padding-top: 25px;
+
+
+}
+
+.title3 {
+    font-family: 'NoyhABistroW01-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 70px;
+    color: #33200B;
+    padding-left: 165px;
+    text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
+
+}
+
+.footer1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #AE875A;
+    padding-right: 5px;
+    position: relative;
+}
+
+.footer2 {
+    color: #33200B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+    }
+
+    .backgroundPhoto {
+        width: 100vw;
+        position: absolute;
+        height: 250px;
+    }
+
+    .headerStyle {
+        width: 100vw;
+        height: auto;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 0;
+        padding-left: 15px;
+        line-height: 25px;
+    }
+
+    .title2 {
+        font-size: 16px;
+        padding: 15px 0 0 15px;
+        line-height: 20px;
+    }
+
+    .title3 {
+        font-size: 40px;
+        padding-top: 0;
+        padding-left: 15px;
+        line-height: 25px;
+    }
+
+    .logo {
+        padding: 0 0 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .navbar {
+        font-family: 'NoyhABistroW01-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 10px;
+        text-decoration: none;
+        color: #33200B;
+    }
+
+    .link {
+        color: #AE875A;
+    }
+
+    .ant-space {
+        gap: 16px !important;
+    }
+
+    .logo {
+        margin-top: 15px;
+    }
+
+    .ant-layout-content {
+        height: 4210px !important;
+    }
+    .ant-layout-footer{
+     padding-top: 15px !important;
+    }
+
 }

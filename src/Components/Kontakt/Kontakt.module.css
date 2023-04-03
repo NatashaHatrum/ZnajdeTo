@@ -1,0 +1,89 @@
+.titleContent {
+    font-family: 'NoyhABistroW01-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 39px;
+    position: absolute;
+    color: #AE875A;
+    padding-top: 8%;
+}
+
+.foto1 {
+    position: absolute;
+    padding-top: 15%;
+}
+
+.foto2 {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 5%;
+}
+
+.kontaktsContent {
+    margin-left: 25%;
+}
+
+.kontaktsContent .name {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #33200B;
+}
+
+.kontaktsContent h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #AE875A;
+    padding-top: 3px;
+}
+
+.ikons {
+    color: #AE875A;
+    padding-top: 39px;
+}
+
+.info {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #33200B;
+    padding-top: 4px;
+    margin-bottom: 0;
+}
+
+.ikons a {
+    color: #AE875A;
+    padding-top: 39px;
+}
+.info a{
+    color: #33200B;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .kontaktsContent {
+        padding-top: 40px;
+    }
+
+    .titleContent {
+        padding-left: 20%;
+        padding-top: 15%;
+    }
+
+    .foto1 {
+        width: 290px;
+        padding-top: 85%;
+    }
+
+    .foto2 {
+        width: 230px;
+        padding-left: 55%;
+        padding-top: 145%;
+    }
+}

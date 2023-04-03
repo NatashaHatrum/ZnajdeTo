@@ -1,0 +1,98 @@
+
+.documentBackground2 {
+    position: absolute;
+    height: 1920px;
+
+}
+
+.backgroundVector {
+    position: absolute;
+    margin-top: 40%;
+    background: none;
+    width: 1440px;
+}
+
+.photoContent4 {
+    position: absolute;
+    width: 490px;
+    margin-left: 165px;
+}
+
+.photoContent5 {
+    position: relative;
+    width: 450px;
+}
+
+.educationList {
+    list-style: disc !important;
+}
+
+.titleContent {
+    font-family: 'NoyhABistroW01-Regular';
+    font-weight: 500;
+    font-size: 34px;
+    color: #AE875A;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 90px;
+}
+
+.paragraf {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #33200B;
+    padding-bottom: 20px;
+    color: #33200B;
+}
+
+.paragraf1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #33200B;
+    padding-bottom: 20px;
+    width: 515px;
+}
+
+@media screen and (max-width: 992px) {
+    .paragraf {
+        width: 100vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .paragraf1 {
+        width: 100vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .titleContent {
+        padding: 55px 0 5px 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photoContent4 {
+
+        width: 290px;
+        margin-left: 65px;
+
+    }
+
+    .photoContent5 {
+        width: 200px;
+    }
+
+    .documentBackground2 {
+        width: 100vw;
+        height: 3560px;
+    }
+
+    .backgroundVector {
+        display: none;
+    }
+}

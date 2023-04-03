@@ -1,25 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Head from "./Components/Header/Header";
+import OMnie from "./Components/OMnie/OMnie";
+import Layout from "antd/es/layout";
+import background from './Image/tlo2.png';
+import Education from "./Components/Doświadczenie/Education";
+import Servises from "./Components/Servises/Servises";
+import Kontakt from "./Components/Kontakt/Kontakt";
+import {theme} from 'antd';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const {Header, Content, Footer} = Layout;
+    const {
+        token: {colorBgContainer},
+    } = theme.useToken();
+    return (
+        <>
+            <Layout>
+                <Header className='headerStyle'>
+                    <img src={background} className='backgroundPhoto'/>
+                    <Head/>
+                </Header>
+                <Content style={{
+                    background: colorBgContainer,
+                    height: '2350px'
+                }}>
+                    <OMnie/>
+                    <Education/>
+                    <Servises/>
+                    <Kontakt/>
+                </Content>
+                <Footer style={{
+                    background: colorBgContainer,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    paddingTop: '83px'
+                }}>
+                    <span className='footer1'>Copyright 2023 </span> <span className='footer2'> Znajdeto.pl </span>
+                </Footer>
+            </Layout>
+
+        </>
+    );
 }
 
 export default App;

@@ -1,0 +1,131 @@
+.input {
+    padding: 5px;
+    color: #6f4d2d;
+}
+
+input {
+    color: #6f4d2d;
+    padding: 10px 400px 10px 5px;
+}
+
+textarea {
+
+    padding: 30px 410px 30px 5px;
+    color: #6f4d2d;
+}
+
+.btn {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    clear: both;
+
+}
+
+h1 {
+
+    color: #6f4d2d;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.textError {
+    color: red;
+}
+
+/*
+input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown) {border-color: green;}
+*/
+
+.hasError {
+    border: 1px solid red;
+}
+
+.error {
+    margin-top: 0;
+    padding: 5px 0 0 0;
+    color: red;
+}
+
+.inputs {
+    background-color: rgba(234, 229, 211, 0.8);
+    border: none;
+    width: 35%;
+    height: 33px;
+    margin-top: 15px;
+    font-size: 16px;
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #33200B;
+
+}
+
+input::-webkit-input-placeholder {
+    color: #AE875A;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(234, 229, 211, 0.8) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #AE875A;
+}
+
+.textArea {
+    width: 80%;
+    height: 220px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(234, 229, 211, 0.8);
+    resize: none;
+    margin-top: 15px;
+    padding: 5px 0 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #33200B;
+    font-size: 16px;
+
+}
+
+.buttonMessage {
+    margin-top: 20px;
+    width: 169px;
+    height: 39px;
+    font-family: 'NoyhABistroW01-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #E4DCC1;
+    background: #33200B;
+}
+
+@media screen and (max-width: 992px) {
+    .inputs {
+        width: 92vw;
+        padding: 0 0 0 10px;
+    }
+
+    .textArea {
+        width: 92vw;
+        padding:  0 0 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .buttonMessage {
+        margin: 0 auto;
+        display: block;
+    }
+}

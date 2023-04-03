@@ -1,0 +1,87 @@
+.documentBackground {
+    position: absolute;
+    width: 1440px;
+    height: 1450px;
+    /* mask-image:linear-gradient(to right bottom, rgba(0, 0, 0, 1.0) 0%, transparent 100%);*/
+}
+
+.titleContent {
+    font-family: 'NoyhABistroW01-Regular';
+    font-weight: 500;
+    font-size: 34px;
+    color: #AE875A;
+    padding: 214px 0 25px 165px;
+    position: relative
+}
+
+.paragraf1 {
+    width: 600px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #33200B;
+    padding-left: 165px;
+    padding-bottom: 20px;
+}
+
+.paragraf1 p {
+    font-weight: 700;
+    margin: 0;
+}
+
+.photoContent {
+    width: 477.19px;
+    position: absolute
+
+}
+
+.photoContent2 {
+    position: relative;
+    width: 449px;
+    height: 564px;
+    padding-top: 90px;
+    margin-left: 30px;
+}
+
+.photoContent3 {
+    width: 477.19px;
+    position: absolute;
+    padding-top: 250px;
+    margin-left: 150px;
+    margin-right: 121.38px;
+}
+
+@media screen and (max-width: 992px) {
+    .documentBackground {
+        width: 100vw;
+        height: 2600px;
+    }
+    .titleContent{
+padding: 25px 0 0 0 ;
+        display: flex;
+        justify-content: center;
+
+    }
+    .paragraf1{
+        padding-left: 15px;
+        width: 100vw;
+        padding-right: 15px;
+    }
+    .photoContent{
+        width: 297.19px;
+        margin-left: 50px;
+    }
+    .photoContent2{
+        padding-top: 50px;
+        width: 269px;
+        height: 364px;
+        margin-left: 60px;
+    }
+    .photoContent3{
+        width: 297.19px;
+        margin-left: 80px;
+        padding-top: 170px;
+        margin-right:0;
+    }
+}
