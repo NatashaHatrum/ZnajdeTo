@@ -23,7 +23,7 @@ const Kontakt = () => {
                 <Col  lg={{span: 7, pull: 0 }} xs={{span: 24, pull:5}}>
                     <div className={style.kontaktsContent}>
                         <h2>Znajdeto.pl</h2>
-                        <span className={style.name}>Marcin Bartnik </span>
+                        <span className={style.name}>Marcin Bartnik</span>
                         <div className={style.ikons}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                  className="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -39,9 +39,9 @@ const Kontakt = () => {
                                     d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                             </svg>
                         </div>
-                        <p className={style.info}>Email@gmail.com</p>
+                        <p className={style.info}>Znajdetopl@gmail.com</p>
                         <div className={style.ikons}>
-                            <a href='https://www.facebook.com' target="_blank" className='link'>
+                            <a href='https://www.facebook.com/profile.php?id=100089563406302&is_tour_dismissed=true' target="_blank" className='link'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
                                      className="bi bi-facebook" viewBox="0 0 16 16">
                                     <path

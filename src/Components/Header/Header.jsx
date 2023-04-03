@@ -45,7 +45,7 @@ const Head = () => {
                 <Col flex={3}>
                     <Space size={50}>
                         {nav.map((el, index) => <a key={index} href={el.href} className={el.className}>{el.name}</a>)}
-                        <a href='https://www.facebook.com' target="_blank" className='link'>
+                        <a href='https://www.facebook.com/profile.php?id=100089563406302&is_tour_dismissed=true' target="_blank" className='link'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                  className="bi bi-facebook" viewBox="0 0 16 16">
                                 <path

@@ -5,50 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf21e200-37cd-4b14-ad25-8ac6341f08f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Doświadczenie/Education.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Doświadczenie/Education.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Form/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Form/Form.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Kontakt/Kontakt.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/OMnie/OMnie.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/OMnie/OMnie.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Servises/Servises.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Servises/Servises.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Fly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Kontakt/chasing2 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Kontakt/dron 2 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Mask group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/OBJECTS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Rectangle 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/TŁO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/Group 5 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/Group 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/Group 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/Group 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/Rectangle 11 (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Usługi/neodym1 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Vector 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Vector 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/Warstwa_1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/image 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/image0 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/teren 1 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/tlo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/wykrywka 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nodemailer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,13 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="760">
               <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/nodemailer.js" />
         <option value="$PROJECT_DIR$/public/api/send-request.js" />
         <option value="$PROJECT_DIR$/public/api/server.js" />
-        <option value="$PROJECT_DIR$/src/Components/Header/Header.jsx" />
         <option value="$PROJECT_DIR$/src/Components/OMnie/OMnie.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Doświadczenie/Education.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Servises/Servises.module.css" />
@@ -177,7 +148,10 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Components/Form/Form.jsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/.env" />
         <option value="$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/Header/Header.jsx" />
       </list>
     </option>
   </component>
@@ -197,7 +171,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="2" />
     <option name="y" value="5" />
     <option name="width" value="1918" />
@@ -220,11 +194,6 @@
             <path>
               <item name="untitled10" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled10" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,7 +207,7 @@
               <item name="untitled10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Kontakt" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +262,12 @@
       <workItem from="1677586871827" duration="2381000" />
       <workItem from="1677589586334" duration="312000" />
       <workItem from="1677590002744" duration="116332000" />
-      <workItem from="1678704352194" duration="81601000" />
+      <workItem from="1678704352194" duration="86194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200626000" />
+    <option name="totallyTimeSpent" value="205219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +279,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="4" width="1534" height="860" extended-state="1" />
+    <frame x="2" y="4" width="1534" height="860" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.16432866" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.24983476" />
@@ -325,7 +294,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287483" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500334" side_tool="true" weight="0.3218707" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.499666" visible="true" weight="0.3218707" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -357,8 +326,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -372,13 +380,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Image/Clip path group.png" />
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Doświadczenie">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -574,16 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-779">
@@ -628,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -659,12 +643,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reportWebVitals.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Kontakt/Kontakt.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="760">
           <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
