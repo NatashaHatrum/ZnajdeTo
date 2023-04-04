@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ZnajdeTo/static/css/main.3a8ab87a.css",
+    "main.js": "/ZnajdeTo/static/js/main.0c56bb42.js",
+    "static/js/787.43196011.chunk.js": "/ZnajdeTo/static/js/787.43196011.chunk.js",
+    "static/media/tlo2.png": "/ZnajdeTo/static/media/tlo2.6f91690ac495c74bee7b.png",
+    "static/media/TŁO.png": "/ZnajdeTo/static/media/TŁO.756818c4b696bccd834a.png",
+    "static/media/OBJECTS.png": "/ZnajdeTo/static/media/OBJECTS.bd1e336b5b1217ab33d9.png",
+    "static/media/Mask group.png": "/ZnajdeTo/static/media/Mask group.92a4eb14694a07cbeb2a.png",
+    "static/media/image0 1.png": "/ZnajdeTo/static/media/image0 1.0bf7460c4811414e4cbe.png",
+    "static/media/image 5.png": "/ZnajdeTo/static/media/image 5.ea233a1ca18a90758b07.png",
+    "static/media/chasing2 1.png": "/ZnajdeTo/static/media/chasing2 1.71c06b0c2285383a71aa.png",
+    "static/media/wykrywka 2.png": "/ZnajdeTo/static/media/wykrywka 2.fd1ed35f1fda79a2539b.png",
+    "static/media/dron 2 1.png": "/ZnajdeTo/static/media/dron 2 1.a337390e6bc8c1fe66a3.png",
+    "static/media/Fly.png": "/ZnajdeTo/static/media/Fly.5a67beebf6976f38f3ef.png",
+    "static/media/Group 8.png": "/ZnajdeTo/static/media/Group 8.3700acf368c74e6cc8ec.png",
+    "static/media/Group 9.png": "/ZnajdeTo/static/media/Group 9.449cd74480a63df646e7.png",
+    "static/media/Vector 2.png": "/ZnajdeTo/static/media/Vector 2.7a0d7461f9912409074f.png",
+    "static/media/Group 7.png": "/ZnajdeTo/static/media/Group 7.bcbd0749ad7922fc3461.png",
+    "static/media/neodym1 2.png": "/ZnajdeTo/static/media/neodym1 2.4bfd0a2fb72925715ef6.png",
+    "static/media/Group 5 (1).png": "/ZnajdeTo/static/media/Group 5 (1).81b7c35b30fe997bfa54.png",
+    "index.html": "/ZnajdeTo/index.html",
+    "main.3a8ab87a.css.map": "/ZnajdeTo/static/css/main.3a8ab87a.css.map",
+    "main.0c56bb42.js.map": "/ZnajdeTo/static/js/main.0c56bb42.js.map",
+    "787.43196011.chunk.js.map": "/ZnajdeTo/static/js/787.43196011.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a8ab87a.css",
+    "static/js/main.0c56bb42.js"
+  ]
+}
