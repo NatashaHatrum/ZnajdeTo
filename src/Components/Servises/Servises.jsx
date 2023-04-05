@@ -39,12 +39,14 @@ const Servises = () => {
                 <h3 className={style.titleContent}>Usługi</h3>
             </Row>
             <Row justify='center'  gutter={[0, 16]}>
-                {imageTable3.map((el) => <Col lg={{span: 4,}} xs={{span: 13}}> <img src={el.src}/> </Col>)}
+                {imageTable3.map((el) => <Col lg={{span: 4,}} xs={{span: 13}}> <img className={style.servisPhoto} src={el.src}/> </Col>)}
                 <Col lg={{span: 4}} xs={{span: 13}} >
+                    <div className={style.servisPhoto}>
                     <img className={style.servisPhoto5} src={servisPhoto5}/>
                     <img src={servisPhoto5a} className={style.servisPhoto5a}/>
                     <p className={style.servisPhoto5b}>Wydobycie obiektów <br/> żelaznych ze studni,<br/> kanałów itp.
                     </p>
+                    </div>
                 </Col>
             </Row>
             <Row justify='center'>

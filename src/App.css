@@ -66,6 +66,10 @@ body {
     color: #33200B;
 }
 
+.link:hover {
+    color: #AE875A;
+}
+
 a:hover {
     color: #33200B;
 }
@@ -75,11 +79,12 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 90px;
-    line-height: 70px;
+    line-height: 75px;
     color: #33200B;
     padding-left: 165px;
     padding-top: 217px;
-     text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
+    text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
+    white-space: pre-wrap;
 
 }
 
@@ -92,7 +97,6 @@ a:hover {
     color: #FFFDF5;
     padding-left: 165px;
     padding-top: 25px;
-
 
 }
 
@@ -149,20 +153,13 @@ a:hover {
         font-size: 40px;
         padding-top: 0;
         padding-left: 15px;
-        line-height: 25px;
+        line-height: 35px;
     }
 
     .title2 {
         font-size: 16px;
-        padding: 15px 0 0 15px;
-        line-height: 20px;
-    }
-
-    .title3 {
-        font-size: 40px;
-        padding-top: 0;
-        padding-left: 15px;
-        line-height: 25px;
+        padding: 10px 0 0 15px;
+        line-height: 15px;
     }
 
     .logo {
@@ -187,18 +184,19 @@ a:hover {
     }
 
     .ant-space {
-        gap: 16px !important;
+        gap: 15px !important;
     }
 
     .logo {
-        margin-top: 15px;
+        margin-top: 13px;
     }
 
     .ant-layout-content {
         height: 4210px !important;
     }
-    .ant-layout-footer{
-     padding-top: 15px !important;
+
+    .ant-layout-footer {
+        padding-top: 15px !important;
     }
 
 }

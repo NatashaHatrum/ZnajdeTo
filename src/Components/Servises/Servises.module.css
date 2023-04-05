@@ -13,6 +13,17 @@
 
 .servisPhoto5 {
     position: absolute;
+ }
+
+.servisPhoto {
+    transition: all 0.5s  ease-in-out;
+    overflow: hidden;
+}
+.servisPhoto:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    cursor: pointer;
 }
 
 .servisPhoto5a {

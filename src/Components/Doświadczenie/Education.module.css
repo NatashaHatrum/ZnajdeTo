@@ -1,7 +1,7 @@
 
 .documentBackground2 {
     position: absolute;
-    height: 1920px;
+    height: 2020px;
 
 }
 
@@ -71,7 +71,7 @@
     }
 
     .titleContent {
-        padding: 55px 0 5px 15px;
+        padding: 35px 0 5px 15px;
         display: flex;
         justify-content: center;
     }
@@ -89,7 +89,7 @@
 
     .documentBackground2 {
         width: 100vw;
-        height: 3560px;
+        height: 3730px;
     }
 
     .backgroundVector {

@@ -17,7 +17,7 @@ const validationSchema = Yup.object().shape({
         .max(40, 'Za długi temat')
         .required('Dodaj temat'),
     email: Yup.string().email('Dodaj prawidlowy email')
-        .required("Mail is required")
+        .required("Wypełnij wymagane pole")
         .test(
             "Validate Email",
             (value) => {

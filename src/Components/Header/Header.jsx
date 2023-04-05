@@ -60,8 +60,7 @@ const Head = () => {
             </Row>
             <Row>
                 <Col>
-                    <div className='title'>Profesjonalne</div>
-                    <div className='title3'>poszukiwania</div>
+                    <div className='title'>Profesjonalne<br/>poszukiwania</div>
                     <div className='title2'>i lokalizowanie obiektów <br/> metalowych oraz podwodnych</div>
                 </Col>
             </Row>

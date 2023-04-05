@@ -24,7 +24,7 @@ function App() {
                 </Header>
                 <Content style={{
                     background: colorBgContainer,
-                    height: '2350px'
+                    height: '2450px'
                 }}>
                     <OMnie/>
                     <Education/>
