@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/fab70e0456e2f6e1045895f5dffd1a30?family=NoyhABistroW01-Regular);
 
 body {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow-x: hidden;
@@ -29,7 +29,6 @@ body {
 }
 
 .footerStyle {
-
     height: auto;
     display: flex;
     justify-content: center;
@@ -59,6 +58,7 @@ body {
 
 .backgroundPhoto {
     position: absolute;
+    width: 100vw;
 
 }
 
@@ -83,7 +83,7 @@ a:hover {
     color: #33200B;
     padding-left: 165px;
     padding-top: 217px;
-    text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
+    text-shadow: 0 4px 4px rgba(255, 250, 219, 0.25);
 }
 
 .title2 {
@@ -198,4 +198,18 @@ a:hover {
         padding-top: 15px !important;
     }
 
+}
+
+.contentSection {
+    height: 2450px;
+}
+@media screen and (min-width: 1600px) {
+    .contentSection {
+        padding-top: 64px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .contentSection {
+        padding-top: 180px;
+    }
 }

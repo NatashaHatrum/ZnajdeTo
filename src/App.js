@@ -19,13 +19,11 @@ function App() {
         <>
             <Layout>
                 <Header className='headerStyle'>
-                    <img src={background} className='backgroundPhoto'/>
+                    <img alt={'image with shovel'} src={background} className='backgroundPhoto'/>
                     <Head/>
                 </Header>
-                <Content style={{
-                    background: colorBgContainer,
-                    height: '2450px'
-                }}>
+                <Content className={'contentSection'} style={{
+                    background: colorBgContainer}}>
                     <OMnie/>
                     <Education/>
                     <Servises/>

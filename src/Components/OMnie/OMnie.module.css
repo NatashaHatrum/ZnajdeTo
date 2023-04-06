@@ -1,6 +1,6 @@
 .documentBackground {
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 1450px;
     /* mask-image:linear-gradient(to right bottom, rgba(0, 0, 0, 1.0) 0%, transparent 100%);*/
 }
