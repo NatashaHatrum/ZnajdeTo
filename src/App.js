@@ -36,7 +36,8 @@ function App() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    paddingTop: '83px'
+                    paddingTop: '83px',
+                    paddingBottom: '0'
                 }}>
                     <span className='footer1'>Copyright 2023 </span> <span className='footer2'> Znajdeto.pl </span>
                 </Footer>
