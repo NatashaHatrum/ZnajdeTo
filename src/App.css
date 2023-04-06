@@ -79,13 +79,11 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 90px;
-    line-height: 75px;
+    line-height: 80px;
     color: #33200B;
     padding-left: 165px;
     padding-top: 217px;
     text-shadow: 0px 4px 4px rgba(255, 250, 219, 0.25);
-    white-space: pre-wrap;
-
 }
 
 .title2 {
@@ -153,7 +151,7 @@ a:hover {
         font-size: 40px;
         padding-top: 0;
         padding-left: 15px;
-        line-height: 35px;
+        line-height: 32px;
     }
 
     .title2 {
@@ -177,6 +175,7 @@ a:hover {
         padding-left: 10px;
         text-decoration: none;
         color: #33200B;
+        white-space: nowrap;
     }
 
     .link {
@@ -184,7 +183,7 @@ a:hover {
     }
 
     .ant-space {
-        gap: 15px !important;
+        gap: 13px !important;
     }
 
     .logo {

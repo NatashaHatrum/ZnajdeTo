@@ -35,7 +35,7 @@ const Kontakt = () => {
                         </div>
                         <p className={style.info}>509451333</p>
                         <div className={style.ikons}>
-                            <a href="znajdetopl@gmail.com">
+                            <a href="mailto:znajdetopl@gmail.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                  className="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path
