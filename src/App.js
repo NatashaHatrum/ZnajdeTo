@@ -3,7 +3,7 @@ import React from "react";
 import Head from "./Components/Header/Header";
 import OMnie from "./Components/OMnie/OMnie";
 import Layout from "antd/es/layout";
-import background from './Image/tlo2.png';
+import background from './Image/tlo21.png';
 import Education from "./Components/Doświadczenie/Education";
 import Servises from "./Components/Servises/Servises";
 import Kontakt from "./Components/Kontakt/Kontakt";
