@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ZnajdeTo/static/css/main.4829a374.css",
-    "main.js": "/ZnajdeTo/static/js/main.d2bce0be.js",
+    "main.css": "/ZnajdeTo/static/css/main.fe26d60c.css",
+    "main.js": "/ZnajdeTo/static/js/main.10d17f9c.js",
     "static/js/787.43196011.chunk.js": "/ZnajdeTo/static/js/787.43196011.chunk.js",
     "static/media/tlo21.png": "/ZnajdeTo/static/media/tlo21.a70e6252675e6ccdbd92.png",
     "static/media/TŁO.png": "/ZnajdeTo/static/media/TŁO.756818c4b696bccd834a.png",
@@ -21,12 +21,12 @@
     "static/media/neodym1 2.png": "/ZnajdeTo/static/media/neodym1 2.4bfd0a2fb72925715ef6.png",
     "static/media/Group 5 (1).png": "/ZnajdeTo/static/media/Group 5 (1).81b7c35b30fe997bfa54.png",
     "index.html": "/ZnajdeTo/index.html",
-    "main.4829a374.css.map": "/ZnajdeTo/static/css/main.4829a374.css.map",
-    "main.d2bce0be.js.map": "/ZnajdeTo/static/js/main.d2bce0be.js.map",
+    "main.fe26d60c.css.map": "/ZnajdeTo/static/css/main.fe26d60c.css.map",
+    "main.10d17f9c.js.map": "/ZnajdeTo/static/js/main.10d17f9c.js.map",
     "787.43196011.chunk.js.map": "/ZnajdeTo/static/js/787.43196011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4829a374.css",
-    "static/js/main.d2bce0be.js"
+    "static/css/main.fe26d60c.css",
+    "static/js/main.10d17f9c.js"
   ]
 }
