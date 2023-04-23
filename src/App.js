@@ -19,7 +19,7 @@ function App() {
         <>
             <Layout>
                 <Header className='headerStyle'>
-                    <img alt={'image with shovel'} src={background} className='backgroundPhoto'/>
+                    <img src={background} className='backgroundPhoto'/>
                     <Head/>
                 </Header>
                 <Content className={'contentSection'} style={{

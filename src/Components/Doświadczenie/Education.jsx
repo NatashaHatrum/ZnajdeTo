@@ -29,7 +29,7 @@ const Education = () => {
             <img src={backgroundVector} className={style.backgroundVector}/>
             <Row id='002'>
                 <Col  lg={{span: 12, order: 0}} xs={{span: 3, order: 1}}>
-                    {imageTable2.map(el => <img src={el.src} className={el.className}/>)}
+                    {imageTable2.map((el, index) => <img key={index} src={el.src} className={el.className}/>)}
                 </Col>
                 <Col   lg={{span: 12,}} xs={{span: 24}}>
                     <h3 className={style.titleContent}>Doświadczenie</h3>

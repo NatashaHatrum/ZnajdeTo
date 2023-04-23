@@ -1,15 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import insert from './../../Image/Warstwa_1-2.png'
 import {Col, Row, Menu} from 'antd';
-import Kontakt from "../Kontakt/Kontakt";
-import Drawer from "antd/es/drawer";
-import MenuOutlined from "@ant-design/icons/es/icons/MenuOutlined";
-
 
 const AppMenu = ({isInline = false, setClose}) => {
 
     useEffect(() => {
-           window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }, [setClose]);
     return (
         <Menu
@@ -28,26 +24,22 @@ const AppMenu = ({isInline = false, setClose}) => {
                 {
                     label: <a className='linkMenu' href={'#001'}>O mnie</a>,
                     key: "001",
-                    onClick: setClose
                 },
 
                 {
                     label: <a className='linkMenu' href={'#002'}>Doświadczenie</a>,
                     key: "#002",
-                    onClick: setClose
                 },
 
                 {
                     label: <a className='linkMenu' href={'#003'}>Usługi</a>,
                     href: '#003',
                     key: "#003",
-                    onClick: setClose
                 },
                 {
-                    label: <a className='linkMenu'  href={'#004'}>Kontakt</a>,
+                    label: <a className='linkMenu' href={'#004'}>Kontakt</a>,
                     href: '#004',
                     key: "#004",
-                    onClick: setClose
                 },
 
             ]}
@@ -56,18 +48,17 @@ const AppMenu = ({isInline = false, setClose}) => {
 
 
 const Head = () => {
-    const [openMenu, setOpenMenu] = useState(false);
-    console.log(openMenu)
+    const [openMenu] = useState(false);
     return (
         <>
-            <Row>
-                <Col lg={{span: 8}} xs={{span: 18}} sm={{span: 8}}> <span> <img className='logo' src={insert}
+            <Row gutter={[0, 16]}>
+                <Col lg={{span: 8}} xs={{span: 24}} sm={{span: 8}}> <span> <img className='logo' src={insert}
                                                                                 alt='logo'/> </span></Col>
-                <Col lg={{span: 0}} xs={{span: 6}} sm={{span: 0}}>
+                {/*<Col lg={{span: 0}} xs={{span: 6}} sm={{span: 0}}>
                     <div><MenuOutlined className="burgierMienuIkons" onClick={() => {
                         setOpenMenu(true)
                     }}/></div>
-                </Col>
+                </Col>*/}
 
                 <Col lg={{span: 10, offset: 3}} sm={{span: 10, offset: 3}}> <span className='menuApp'><AppMenu/> </span></Col>
                 <Col lg={{span: 2}} xs={{span: 3}} sm={{span: 2}}>
@@ -87,23 +78,7 @@ const Head = () => {
                     </div>
                 </Col>
             </Row>
-            <Drawer open={openMenu}
-                    placement='top'
-                    onClose={() => {
-                        setOpenMenu(false)
-
-                          }}
-                    closable={false}
-                    style={{height: '60%', }}
-
-                /* bodyStyle={}*/>
-                <AppMenu isInline setClose={() => {
-                    setOpenMenu(false)
-
-
-                }} />
-                    </Drawer>
-                {/* <Col flex={2}>
+            {/* <Col flex={2}>
                     <span> <img className='logo' src={insert} alt='logo'/> </span>
                 </Col>
                 <Col flex={3}>
@@ -122,16 +97,16 @@ const Head = () => {
                     </Space>
                 </Col> */}
 
-                    <Row>
-                    <Col>
+            <Row>
+                <Col>
                     <div className='title'>Profesjonalne<br/>poszukiwania</div>
                     <div className='title2'>i lokalizowanie obiektów <br/> metalowych oraz podwodnych</div>
-                    </Col>
-                    </Row>
+                </Col>
+            </Row>
 
-                    </>
+        </>
 
-                    )
-                };
+    )
+};
 
-                export default Head;
+export default Head;
