@@ -43,7 +43,7 @@ const Kontakt = () => {
                             </svg>
                             </a>
                         </div>
-                        <p className={style.info}>znajdetopl@gmail.com</p>
+                        <p className={style.info}>kontakt@znajdeto.pl</p>
                         <div className={style.ikons}>
                             <a href='https://www.facebook.com/profile.php?id=100089563406302&is_tour_dismissed=true' target="_blank" className='link'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"

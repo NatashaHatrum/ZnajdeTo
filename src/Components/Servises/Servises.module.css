@@ -57,7 +57,7 @@
 .backgroundVector2 {
     position: absolute;
     top: -85px;
-    width: 1440px;
+    width: 100vw;
 }
 
 @media screen and (max-width: 992px) {

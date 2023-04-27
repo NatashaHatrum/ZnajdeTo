@@ -3,11 +3,10 @@ import React from "react";
 import Head from "./Components/Header/Header";
 import OMnie from "./Components/OMnie/OMnie";
 import Layout from "antd/es/layout";
-import background from './Image/tlo21.png';
 import Education from "./Components/Doświadczenie/Education";
 import Servises from "./Components/Servises/Servises";
 import Kontakt from "./Components/Kontakt/Kontakt";
-import {theme} from 'antd';
+import {Col, Row, theme} from 'antd';
 
 
 function App() {
@@ -15,27 +14,41 @@ function App() {
     const {
         token: {colorBgContainer},
     } = theme.useToken();
+
+    const calculateImage = (screenHeight)=> {
+        if(window.width < 1440 ){
+            return 900
+        }
+        else return window.innerHeight
+    };
+
+    console.log(window.innerWidth)
+    console.log(document.innerHeight, window.innerHeight)
     return (
         <>
             <Layout>
-                <Header className='headerStyle'>
-                    <img src={background} className='backgroundPhoto'/>
+                <Header className='headerStyle' style={{height: calculateImage(window.innerHeight)}}>
                     <Head/>
+                    <Row className='tempRow'>
+                        <Col span={24} className='tempColumn'>
+                            <div className='title'>Profesjonalne<br/>poszukiwania</div>
+                            <div className='title2'>i lokalizowanie obiektów <br/> metalowych oraz podwodnych</div>
+                        </Col>
+                    </Row>
                 </Header>
                 <Content className={'contentSection'} style={{
-                    background: colorBgContainer}}>
+                    background: colorBgContainer,
+                    marginTop: "-9%"
+                }}>
                     <OMnie/>
                     <Education/>
                     <Servises/>
                     <Kontakt/>
                 </Content>
-                <Footer style={{
-                    background: colorBgContainer,
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    paddingTop: '83px'
-                }}>
+                <Footer className="footerStyle"
+                        style={{
+                            background: colorBgContainer,
+                        }}>
                     <span className='footer1'>Copyright 2023 </span> <span className='footer2'> Znajdeto.pl </span>
                 </Footer>
             </Layout>

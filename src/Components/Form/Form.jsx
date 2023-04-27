@@ -86,7 +86,7 @@ const Formularz = () => {
                         <Field name="email" placeholder="email" type='email' as={InputComponent} required={true}/>
                         <ErrorMessage component="div" className={style.error} name="email"/>
                         <Field name="message" placeholder="treść wiadomości" as={TextareaComponent} required={true}/>
-                        <ErrorMessage component="div" className={style.error} name="message"/>
+                        <ErrorMessage component="div" className={style.error2} name="message"/>
                         <button className={style.buttonMessage} disabled={!dirty || isSubmitting} type="submit">
                             wyślij wiadomość
                         </button>

@@ -26,7 +26,9 @@ const Education = () => {
 
         <>
             <img src={documentBackground2} className={style.documentBackground2}/>
+
             <img src={backgroundVector} className={style.backgroundVector}/>
+
             <Row id='002'>
                 <Col  lg={{span: 12, order: 0}} xs={{span: 3, order: 1}}>
                     {imageTable2.map((el, index) => <img key={index} src={el.src} className={el.className}/>)}
@@ -40,7 +42,6 @@ const Education = () => {
                             <li>Muzeum Początków Państwa Polskiego,</li>
                             <li>Muzeum Obozów Jenieckich w Żaganiu,</li>
                             <li>Muzeum Pogranicza w Działdowie,</li>
-                            <li>Lubelski Konserwator Zabytków,</li>
                             <li>Lubelski Konserwator Zabytków,</li>
                             <li>prowadziłem poszukiwania na zamku królów i alchemików w Krzepicach.</li>
                         </ul>

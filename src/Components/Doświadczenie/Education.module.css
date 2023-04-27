@@ -1,16 +1,16 @@
 
 .documentBackground2 {
     position: absolute;
-    height: 2020px;
+    height: 2080px;
     width: 100%;
 
 }
 
 .backgroundVector {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 37%;
     background: none;
-    width: 1440px;
+    width: 100vw;
 }
 
 .photoContent4 {
@@ -89,11 +89,17 @@
     }
 
     .documentBackground2 {
-        width: 100vw;
+        width: 1800px;
         height: 3570px;
+
     }
 
     .backgroundVector {
         display: none;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .backgroundVector{
+        margin-top: 30%;
     }
 }

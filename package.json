@@ -1,8 +1,8 @@
 {
-  "name": "untitled10",
+  "name": "znajdeto.pl",
   "version": "0.1.0",
-  "homepage": "https://natashahatrum.github.io/ZnajdeTo/",
-  "private": true,
+  "homepage": "https://znajdeto.pl",
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@testing-library/jest-dom": "^5.16.5",
