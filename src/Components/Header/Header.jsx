@@ -42,8 +42,8 @@ const AppMenu = ({isInline = false, setClose}) => {
                     key: "#004",
                 },
                 {
-                    label:  <a href={'https://www.facebook.com/profile.php?id=100089563406302&is_tour_dismissed=true'} target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#33200B"
+                    label:  <a  href={'https://www.facebook.com/profile.php?id=100089563406302&is_tour_dismissed=true'} target="_blank">
+                        <svg id='iconFB' xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#33200B"
                                                                        className="bi bi-facebook" viewBox="0 0 16 16">
                         <path
                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0

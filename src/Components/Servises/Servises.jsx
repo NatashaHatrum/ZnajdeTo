@@ -35,34 +35,39 @@ const Servises = () => {
     return (
 
         <>
-            <Row id='003'>
-                <h3 className={style.titleContent}>Usługi</h3>
-            </Row>
-            <Row justify='center'  gutter={[0, 16]}>
-                {imageTable3.map((el) => <Col key={el.key} lg={{span: 4,}} xs={{span: 13}}> <img className={style.servisPhoto} src={el.src}/> </Col>)}
-                <Col lg={{span: 4}} xs={{span: 13}} >
-                    <div className={style.servisPhoto}>
-                    <img alt={'photo service'} className={style.servisPhoto5} src={servisPhoto5}/>
-                    <img alt={'photo service2'}  src={servisPhoto5a} className={style.servisPhoto5a}/>
-                    <p className={style.servisPhoto5b}>Wydobycie obiektów <br/> żelaznych ze studni,<br/> kanałów itp.
-                    </p>
-                    </div>
-                </Col>
-            </Row>
-            <Row justify='center'>
-                <Col lg={{span: 12}} xs={{span: 24}} >
-                    <Typography className={style.paragraf}>
-                        Swoje usługi kieruję w stronę firm archeologicznych, budowlanych, policji, wojsku, straży
-                        pożarnej,
-                        nurkom i firmom detektywistycznym, a także profesjonalistom z branży akwakultury, poszukiwań i
-                        ratownictwa, oraz podwodnej inspekcji.
-                    </Typography>
+            <Row className={style.tempRow4}>
+                <Col span={24} className={style.tempColumn4}>
+                    <Row id='003'>
+                        <h3 className={style.titleContent}>Usługi</h3>
+                    </Row>
+                    <Row justify='center'  gutter={[0, 16]}>
+                        {imageTable3.map((el) => <Col key={el.key} lg={{span: 4,}} xs={{span: 13}}> <img className={style.servisPhoto} src={el.src}/> </Col>)}
+                        <Col lg={{span: 4}} xs={{span: 13}} >
+                            <div className={style.servisPhoto}>
+                                <img alt={'photo service'} className={style.servisPhoto5} src={servisPhoto5}/>
+                                <img alt={'photo service2'}  src={servisPhoto5a} className={style.servisPhoto5a}/>
+                                <p className={style.servisPhoto5b}>Wydobycie obiektów <br/> żelaznych ze studni,<br/> kanałów itp.
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row justify='center'>
+                        <Col lg={{span: 12}} xs={{span: 24}} >
+                            <Typography className={style.paragraf}>
+                                Swoje usługi kieruję w stronę firm archeologicznych, budowlanych, policji, wojsku, straży
+                                pożarnej,
+                                nurkom i firmom detektywistycznym, a także profesjonalistom z branży akwakultury, poszukiwań i
+                                ratownictwa, oraz podwodnej inspekcji.
+                            </Typography>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
             <Row>
                 <Col span={24}>
                     <img alt={'photo service3'} src={backgroundVector2} className={style.backgroundVector2}/>
-                </Col></Row>
+                </Col>
+            </Row>
 
 
         </>

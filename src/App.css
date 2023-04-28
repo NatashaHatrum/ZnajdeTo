@@ -25,6 +25,8 @@ body {
     }
 }
 
+
+
 @media only screen and (max-width: 576px) {
     .tempColumn2 {
         padding-top: 5px
@@ -138,12 +140,21 @@ body {
     height: auto;
 }
 
-.css-dev-only-do-not-override-10ed4xt .ant-menu .ant-menu-item a:hover {
+/*.css-dev-only-do-not-override-10ed4xt .ant-menu .ant-menu-item a:hover {
     color: #33200B;
-}
+}*/
 
 .linkMenu {
     text-decoration: none;
+
+}
+
+.linkMenu:hover {
+    color: #33200B !important;
+}
+
+#iconFB:hover svg {
+    color: #AE875A !important;
 }
 
 .title {

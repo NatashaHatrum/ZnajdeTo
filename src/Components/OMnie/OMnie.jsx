@@ -30,28 +30,31 @@ const OMnie = () => {
 
         <>
             <img src={documentBackground} className={style.documentBackground}/>
-
-            <Row id='001'>
-                <Col  lg={{span: 12,}} xs={{span: 24}}>
-                    <h3 className={style.titleContent}>O mnie</h3>
-                    <Typography className={style.paragraf1}>
-                        <b>Posiadam wieloletnie doświadczenie </b> w poszukiwaniu i lokalizacji zaginionych
-                        lub ukrytych przedmiotów. Zarówno najmniejszych jak średniowieczne denary, po
-                        największe, jak części maszyn wojskowych. Zajmuję się również inspekcją podwodną.
-                    </Typography>
-                    <Typography className={style.paragraf1}>
-                        <b>Dysponuje najnowocześniejszym sprzętem </b> służącym do detekcji i namierzania obiektów
-                        metalowych a także do poszukiwań podwodnych.
-                    </Typography>
-                </Col>
-                <Col span={12}>
-                    {imageTable.map((el) => <img key={el.key} src={el.src} className={el.className}/>)}
+            <Row className={style.tempRow3}>
+                <Col span={24} className={style.tempColumn}>
+                    <Row id='001'>
+                        <Col lg={{span: 12,}} xs={{span: 24}}>
+                            <h3 className={style.titleContent}>O mnie</h3>
+                            <Typography className={style.paragraf1}>
+                                <b>Posiadam wieloletnie doświadczenie </b> w poszukiwaniu i lokalizacji zaginionych
+                                lub ukrytych przedmiotów. Zarówno najmniejszych jak średniowieczne denary, po
+                                największe, jak części maszyn wojskowych. Zajmuję się również inspekcją podwodną.
+                            </Typography>
+                            <Typography className={style.paragraf1}>
+                                <b>Dysponuje najnowocześniejszym sprzętem </b> służącym do detekcji i namierzania
+                                obiektów
+                                metalowych a także do poszukiwań podwodnych.
+                            </Typography>
+                        </Col>
+                        <Col span={12}>
+                            {imageTable.map((el) => <img key={el.key} src={el.src} className={el.className}/>)}
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
-
         </>
 
     )
-}
+};
 
 export default OMnie;

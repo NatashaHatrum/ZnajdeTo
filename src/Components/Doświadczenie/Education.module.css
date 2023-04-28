@@ -12,7 +12,24 @@
     background: none;
     width: 100vw;
 }
+.tempRow4 {
+    padding-left: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center}
 
+@media only screen and (max-width: 992px) {
+    .tempRow4 {
+        padding-left: 0
+    }
+}
+
+.tempColumn4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+}
 .photoContent4 {
     position: absolute;
     width: 490px;
@@ -78,18 +95,17 @@
     }
 
     .photoContent4 {
-
         width: 290px;
         margin-left: 65px;
-
     }
+
 
     .photoContent5 {
         width: 200px;
     }
 
     .documentBackground2 {
-        width: 1800px;
+        width: 100vw;
         height: 3570px;
 
     }
