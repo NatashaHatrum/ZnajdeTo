@@ -8,13 +8,11 @@
     color: #AE875A;
     padding-top: 8%;
 }
-
 .tempRow5 {
     padding-left: 120px;
     width: 100%;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
 
 @media only screen and (max-width: 992px) {
     .tempRow5 {
@@ -28,7 +26,6 @@
     justify-content: center;
     max-width: 1440px;
 }
-
 .foto1 {
     position: absolute;
     padding-top: 15%;
@@ -40,6 +37,7 @@
     padding-top: 5%;
 }
 
+
 .kontaktsContent .name {
     font-family: 'Inter';
     font-weight: 700;
@@ -47,11 +45,9 @@
     line-height: 26px;
     color: #33200B;
 }
-
-.kontaktsContent {
+.kontaktsContent{
     padding-left: 20px;
 }
-
 .kontaktsContent h2 {
     font-family: 'Inter';
     font-style: normal;
@@ -82,31 +78,27 @@
     color: #AE875A;
     padding-top: 39px;
 }
-
-.info a {
+.info a{
     color: #33200B;
     text-decoration: none;
 }
-
-.tempRow6 {
+.tempRow6{
     position: absolute;
     margin-top: 57%;
     width: 1440px;
 }
-
 @media screen and (max-width: 992px) {
     .kontaktsContent {
         padding-top: 35px;
     }
 
-    .titleContent {
+    .titleContent{
         margin-left: 35%;
     }
-
     .foto1 {
         width: 280px;
         padding-top: 46%;
-        margin-left: 90px;
+margin-left: 90px;
         padding-left: 30px;
     }
 
@@ -115,9 +107,9 @@
         margin-left: 5%;
         padding-top: 70%;
 
-    }
 
-    .tempRow6 {
+    }
+    .tempRow6{
         width: 100vw;
         padding-top: 190%;
         padding-left: 15px;
@@ -126,6 +118,6 @@
 
 @media screen and (min-width: 1366px) {
     .foto2 {
-        z-index: 1000;
+      z-index: 1000;
     }
 }

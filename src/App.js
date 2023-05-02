@@ -9,6 +9,7 @@ import Kontakt from "./Components/Kontakt/Kontakt";
 import {Col, Row, theme} from 'antd';
 
 
+
 function App() {
     const {Header, Content, Footer} = Layout;
     const {
@@ -23,6 +24,7 @@ function App() {
     };
 
     console.log(window.innerWidth)
+
     console.log(document.innerHeight, window.innerHeight)
     return (
         <>

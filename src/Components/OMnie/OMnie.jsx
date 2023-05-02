@@ -1,6 +1,5 @@
 import * as React from "react";
 import documentBackground from './../../Image/OBJECTS.png';
-import documentBackground2 from './../../Image/TŁO.png';
 import photoContent from './../../Image/image 5.png';
 import photoContent2 from './../../Image/wykrywka 2.png';
 import photoContent3 from './../../Image/image0 1.png';

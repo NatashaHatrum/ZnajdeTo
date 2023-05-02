@@ -61,8 +61,7 @@
 
 @media screen and (max-width: 992px) {
     .documentBackground {
-        height: 2600px;
-        width: 100vw;
+   display: none;
     }
     .tempColumn001{
         max-width: unset;

@@ -105,9 +105,7 @@
     }
 
     .documentBackground2 {
-        width: 100vw;
-        height: 3570px;
-
+display: none;
     }
 
     .backgroundVector {

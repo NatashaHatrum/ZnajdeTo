@@ -4,9 +4,11 @@ import * as React from "react";
 import foto1 from './../../Image/Kontakt/chasing2 1.png'
 import foto2 from './../../Image/Kontakt/dron 2 1.png'
 import Formularz from "../Form/Form";
+import {useMobile} from "../../Hooks/usemobile";
 
 
 const Kontakt = () => {
+    const[isMobile] = useMobile();
     return (
         <>
             <Row className={style.tempRow5}>
